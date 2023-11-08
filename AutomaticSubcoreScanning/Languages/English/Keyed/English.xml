@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <SubcoreScannerAutoLoad>Autoload scanner</SubcoreScannerAutoLoad>
+  <SubcoreScannerAutoLoadDesc>Autoload this subscanner when your current number of subcores is below the threshold?</SubcoreScannerAutoLoadDesc>
+  <SubcoreScannerAutoAllowColonists>Allow colonists</SubcoreScannerAutoAllowColonists>
+  <SubcoreScannerAutoAllowColonistsDesc>Allow colonists assigned to basic work to enter this subscanner?</SubcoreScannerAutoAllowColonistsDesc>
+  <SubcoreScannerAutoAllowPrisoners>Allow prisoners</SubcoreScannerAutoAllowPrisoners>
+  <SubcoreScannerAutoAllowPrisonersDesc>Allow prisoners with the "{0}" interaction mode to be carried to this subscanner?</SubcoreScannerAutoAllowPrisonersDesc>
+  <TargetSubcores>Current subcores: {0}</TargetSubcores>
+  <SubcoreTargetAmountChange>Target subcores {0}</SubcoreTargetAmountChange>
+</LanguageData>

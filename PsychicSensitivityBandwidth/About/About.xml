@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Psychic Sensitivity Affects Bandwidth</name>
+  <author>Lomzie</author>
+  <url/>
+  <description>The psychic sensitivity of a mechinator should result in an increase in mech bandwidth, no? Oh, well it does now.</description>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <packageId>Lomzie.PsychicSensitivityBandwidth</packageId>
+  <forceLoadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.Biotech</li>
+  </forceLoadAfter>
+</ModMetaData>

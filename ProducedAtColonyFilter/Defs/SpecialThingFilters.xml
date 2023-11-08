@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <SpecialThingFilterDef>
+    <defName>ProducedLocally</defName>
+    <label>allow locally crafted</label>
+    <description>Allow things that are crafted at the colony. (Currently only considers bills)</description>
+    <allowedByDefault>true</allowedByDefault>
+    <parentCategory>Root</parentCategory>
+    <saveKey>allowProducedLocally</saveKey>
+    <workerClass>Lomzie.ProducedLocallyFilter.SpecialThingFilterWorker_ProducedLocally</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>NotProducedLocally</defName>
+    <label>allow not locally produced</label>
+    <description>Allow things that are not crafted at the colony. (Currently only considers bills)</description>
+    <allowedByDefault>true</allowedByDefault>
+    <parentCategory>Root</parentCategory>
+    <saveKey>allowNotProducedLocally</saveKey>
+    <workerClass>Lomzie.ProducedLocallyFilter.SpecialThingFilterWorker_NotProducedLocally</workerClass>
+  </SpecialThingFilterDef>
+
+</Defs>

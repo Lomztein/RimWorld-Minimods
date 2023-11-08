@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- add StatParts to mech bandwidth if it isn't there already. -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/StatDef[defName="MechBandwidth"]/parts</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="MechBandwidth"]</xpath>
+      <value>
+        <parts></parts>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <!-- Add psychic sensitivity stat part -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="MechBandwidth"]/parts</xpath>
+    <value>
+      <li Class="Lomzie.PsychicSensitivityBandwidth.StatPart_PsychicSensitivity" />
+    </value>
+  </Operation>
+
+</Patch>

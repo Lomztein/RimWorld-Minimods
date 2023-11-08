@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>DoBillsGreenhouse</defName>
+    <label>grow crops at greenhouse</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Growing</workType>
+    <priorityInType>400</priorityInType>
+    <fixedBillGiverDefs>
+      <li>FueledGreenhouse</li>
+      <li>ElectricGreenhouse</li>
+    </fixedBillGiverDefs>
+    <verb>grow</verb>
+    <gerund>growing at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+</Defs>

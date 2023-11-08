@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <PrisonerInteractionModeDef>
+    <defName>RipscanPrisoner</defName>
+    <label>ripscan</label>
+    <listOrder>41</listOrder>
+    <description>A warden will carry this prisoner to a Subcore Ripscanner to be ripscanned. The prisoner will die in the process, which may make pawns somewhat unhappy.</description>
+  </PrisonerInteractionModeDef>
+
+  <PrisonerInteractionModeDef>
+    <defName>SoftscanPrisoner</defName>
+    <label>softscan</label>
+    <listOrder>27</listOrder>
+    <description>A warden will carry this prisoner to a Subcore Softscanner to be softscanned.</description>
+  </PrisonerInteractionModeDef>
+</Defs>

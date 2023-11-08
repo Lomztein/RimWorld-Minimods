@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Greenhouse</name>
+  <author>Lomzie</author>
+  <url/>
+  <targetVersion>1.4.3704</targetVersion>
+  <description>A greenhouse where pawns can "craft" crops using bills. Simple mod to try to get the hang of this modding business.</description>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <packageId>Lomzie.Greenhouse</packageId>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+  </loadAfter>
+</ModMetaData>

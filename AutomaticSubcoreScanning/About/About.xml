@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Automatic Subcore Scanning</name>
+  <author>Lomzie</author>
+  <url/>
+  <description>Tired of manually managing subcore scanning all the time? Want to mass-produce deadly killing machines? This is the mod for you, then! Pawns will automatically fill scanners, and enter them in case of Softscanners, or put prisoners with the "Ripscan" interaction in them in case of Ripscanners.</description>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <packageId>Lomzie.AutomaticSubcoreScanning</packageId>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.Biotech</li>
+  </loadAfter>
+</ModMetaData>

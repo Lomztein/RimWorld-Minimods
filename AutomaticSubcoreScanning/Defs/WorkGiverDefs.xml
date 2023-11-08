@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WorkGiverDef>
+    <defName>EnterSoftscanner</defName>
+    <label>enter subscanner</label>
+    <giverClass>Lomzie.AutomaticSubcoreScanning.AI.WorkGiver_EnterScanner</giverClass>
+    <priorityInType>0</priorityInType>
+    <workType>BasicWorker</workType>
+    <emergency>false</emergency>
+    <verb>enter</verb>
+    <gerund>entering</gerund>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>CarryToRipscanner</defName>
+    <label>carry to ripscanner</label>
+    <giverClass>Lomzie.AutomaticSubcoreScanning.AI.WorkGiver_CarryPrisonerToScanner</giverClass>
+    <priorityInType>0</priorityInType>
+    <workType>Warden</workType>
+    <emergency>false</emergency>
+    <verb>carry</verb>
+    <gerund>carrying</gerund>
+  </WorkGiverDef>
+
+</Defs>

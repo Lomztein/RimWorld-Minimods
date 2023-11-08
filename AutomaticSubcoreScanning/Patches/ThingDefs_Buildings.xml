@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="SubcoreSoftscanner"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="SubcoreSoftscanner"]</xpath>
+      <value>
+        <comps></comps>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="SubcoreSoftscanner"]/comps</xpath>
+    <value>
+      <li Class="Lomzie.AutomaticSubcoreScanning.CompProperties_CompSubcoreScannerTargetAmount"></li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="SubcoreRipscanner"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="SubcoreRipscanner"]</xpath>
+      <value>
+        <comps></comps>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="SubcoreRipscanner"]/comps</xpath>
+    <value>
+      <li Class="Lomzie.AutomaticSubcoreScanning.CompProperties_CompSubcoreScannerTargetAmount"></li>
+    </value>
+  </Operation>
+
+</Patch>
