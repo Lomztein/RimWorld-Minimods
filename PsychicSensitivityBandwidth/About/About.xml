@@ -3,7 +3,21 @@
   <name>Psychic Sensitivity Affects Bandwidth</name>
   <author>Lomzie</author>
   <url/>
-  <description>The psychic sensitivity of a mechinator should result in an increase in mech bandwidth, no? Oh, well it does now.</description>
+  <description>
+    The psychic sensitivity of a mechinator should result in an increase in mech bandwidth, no? Oh, well it does now.
+    
+    A mechinators bandwidth is now multiplied by half of their psychic sensitivity by default. The multiplier can be changed in the mod sittings, but I personally feel that this works well without being *too* overpowered.
+    This provides an alternative avenue for upgrading your mechinators mech bandwidth, but beware that if the sensitivity is lost somehow, then the mechinator looses the extra bandwidth. With an Eltex Staff and an Array headset, you'd get a bandwidth of about 15, assuming a base sensitivity of 100%
+    
+    Perfectly safe to add and remove from saves, though any pawn affected by it will of course loose their extra bandwidth.
+    
+    Pairs well with Mechanitor Balance Tweaks, Prestige Mechlord Armor, and Anima Bodies.
+    
+    GitHub: https://github.com/Lomztein/RimWorld-Minimods/tree/main/PsychicSensitivityBandwidth
+    
+    I am almost entirely new to this whole modding business, so bugs and janky behaviour may occur. Please report any bugs or issues via the GitHub repository or the mods workshop page.
+    
+    If you're wondering why the preview doesn't show higher bandwidth use than 12 then, well, I couldn't really be bothered taking a better screenshot.</description>
   <supportedVersions>
     <li>1.4</li>
   </supportedVersions>
