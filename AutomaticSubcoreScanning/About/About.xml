@@ -3,7 +3,24 @@
   <name>Automatic Subcore Scanning</name>
   <author>Lomzie</author>
   <url/>
-  <description>Tired of manually managing subcore scanning all the time? Want to mass-produce deadly killing machines? This is the mod for you, then! Pawns will automatically fill scanners, and enter them in case of Softscanners, or put prisoners with the "Ripscan" interaction in them in case of Ripscanners.</description>
+  <description>
+    Tired of manually managing subcore scanning all the time? Want to mass-produce deadly killing machines? This is the mod for you, then! Pawns can automatically fill scanners, and enter softscanners, or carry prisoners with the "Softscan"/"Ripscan" interaction to softscanners/ripscanners.
+
+    This mods adds an "Autoload" option to subcore scanners, when when enabled allows you to set a target number of cores, and toggle whether or not colonists and prisoners can automatically enter it.
+    When colonists are allowed, any colonist with the "Basic" work task will enter the subscanner whenever possible. For prisoners, you can set their interaction mode to either "Softscan" or "Ripscan", and wardens will automatically carry them to softscanners and ripscanners respectively.
+
+    Arguably, automatic the absolute eradication of living human brains with thoughts and emotions could be seen as somewhat barbaric, but then again this is Warcri- ahem, RimWorld.
+
+    Perfectly safe to add and remove from saves.
+    Integrates nicely with Custom Prisoner Interactions. You can set prisoners to be ripscanned by default, and turn everyone who dares attack your mechatropolis into subcores.
+    
+    Should support mods that add custom scanners and cores, but there won't be additional prisoner interaction modes.
+
+    GitHub: https://github.com/Lomztein/RimWorld-Minimods/tree/main/PsychicSensitivityBandwidth
+    Discord: https://discord.gg/QvNCcy8JHh
+
+    I am almost entirely new to this whole modding business, so bugs and janky behaviour may occur. Please report any bugs or issues via the GitHub repository or the mods workshop page.
+  </description>
   <supportedVersions>
     <li>1.4</li>
   </supportedVersions>
